@@ -4,7 +4,7 @@ import java.lang.Math;
 public class ArrayDeque61B<T> implements Deque61B<T> {
     private T[] items;
     private int size;
-    private int nextFirst;;
+    private int nextFirst;
     private int nextLast;
     private static final int RFACTOR = 2;
     private static final int INITIAL_CAPACITY = 8;
