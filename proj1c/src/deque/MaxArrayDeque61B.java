@@ -3,9 +3,9 @@ package deque;
 import java.util.Comparator;
 
 public class MaxArrayDeque61B<T> extends ArrayDeque61B<T> {
-    private final java.util.Comparator<T> comparator;
+    private final Comparator<T> comparator;
 
-    public MaxArrayDeque61B(java.util.Comparator<T> comparator) {
+    public MaxArrayDeque61B(Comparator<T> comparator) {
         super();
         this.comparator = comparator;
     }
